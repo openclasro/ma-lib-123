@@ -1,6 +1,6 @@
 {
   "name": "ma-lib-123",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index.jsx",
   "module": "dist/index.js",
   "scripts": {
@@ -9,7 +9,12 @@
   "babel": {
     "presets": [ "react", "env", "stage-2" ]
   },
-  "dependencies": {
+  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openclasro/ma-lib-123"
+  },
+    "dependencies": {
     "@types/react": "^18.0.25",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
